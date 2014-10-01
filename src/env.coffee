@@ -1,3 +1,6 @@
+###!
+Env.js | github.com/danott/env.js
+###
 propertyNameRegex = /^Env\./
 
 envTags = [].slice.call(document.getElementsByTagName('meta')).filter (tag) ->
