@@ -1,0 +1,24 @@
+{
+  "name": "envjs",
+  "version": "0.0.1",
+  "description": "Set an environment from html meta tags.",
+  "main": "dist/env.js",
+  "dependencies": {},
+  "devDependencies": {
+    "coffee": "^0.0.1",
+    "jsmin": "^1.0.1"
+  },
+  "scripts": {
+    "build": "coffee -cs < src/env.coffee > dist/env.js && jsmin < dist/env.js > dist/env.min.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/danott/envjs.git"
+  },
+  "author": "@danott",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/danott/envjs/issues"
+  },
+  "homepage": "https://github.com/danott/envjs"
+}
