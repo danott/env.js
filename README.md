@@ -16,7 +16,7 @@ npm run build # build src into dist
 ```html
 <meta name="Env.station" content="swan" />
 <meta name="Env.port" content="2342" />
-<script src="env.js></script>
+<script src="env.js"></script>
 ```
 
 The above meta tags would define the following object:
