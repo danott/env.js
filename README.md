@@ -31,7 +31,7 @@ that you don't want to coerce, you can opt out with a data attribute:
 ```html
 <meta name="Env.station" content="swan" />
 <meta name="Env.port" content="2342" data-env-no-coerce />
-<script src="env.js></script>
+<script src="env.js"></script>
 ```
 
 This would result in:
