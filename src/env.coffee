@@ -13,4 +13,4 @@ for tag in envTags
   try eval("value = #{value}") unless tag.dataset.hasOwnProperty('envNoCoerce')
   env[name] = value
 
-window.Env = env
+@Env = env
